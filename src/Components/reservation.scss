@@ -1,0 +1,71 @@
+.container{
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
+    padding: 24px;
+}
+.reservation__title{
+    margin-bottom: 1em;
+}
+.reservation__button{
+    margin-bottom: 12px;
+}
+.reservation__input{
+    margin-bottom: 12px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    padding: 8px 12px;
+}
+.reservation__input:focus{
+    outline: none;
+    border: 1px solid #3498ff;
+}
+.reservation__panel{
+    margin-bottom: 12px;
+    height: 100%;
+}
+.reservation__panel__guttered{
+    margin-bottom: 12px;
+    height: 100%;
+    margin-right: 16px;
+}
+.align-item-stretch{
+    align-items: stretch;
+    margin-bottom: 12px;
+}
+.timepicker__title{
+    margin-bottom: 12px;
+}
+.timepicker__main-text{
+    margin-bottom: 12px;
+}
+.endcard__title{
+    margin-bottom: 12px;
+}
+.endcard__paragraph{
+    margin-bottom: 12px;
+}
+.rs-panel-body{
+    height: 100%;
+    
+}
+.endcard__list{
+    margin-bottom: 12px;
+}
+.remove-animation{
+    animation: none !important;
+}
+.footer{
+    padding: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .reservation__panel__guttered{
+        margin-bottom: 12px;
+        height: 100%;
+        margin-right: 0px
+    }
+}
